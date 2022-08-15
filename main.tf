@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "test-bucket" {
-  bucket = "my-test-s3-terraform-bucket0789"
+  bucket = "my-test-s3-terraform-bucket1989"
   acl    = "private"
   versioning {
     enabled = true
