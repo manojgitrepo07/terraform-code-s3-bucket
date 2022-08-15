@@ -25,7 +25,7 @@ resource "aws_s3_bucket" "test-bucket" {
 }
 
 resource "aws_s3_bucket_public_access_block" "private_bucket" {
-  bucket = "my-test-s3-terraform-bucket07"
+  bucket = "my-test-s3-terraform-bucket1989"
 
   block_public_acls       = true
   block_public_policy     = true
